@@ -1,0 +1,18 @@
+@import "variables";
+@import "header";
+.row {
+    background-color: aquamarine;
+    div {
+        $colorSecundario: crimson;
+        border: solid 10px $colorPrincipal;
+        h2 {
+            text-decoration: underline;
+            background-color: $colorSecundario;
+        }
+    }
+}
+
+
+/*footer {
+    background-color: $colorSecundario;
+}*/

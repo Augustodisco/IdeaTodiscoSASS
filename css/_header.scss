@@ -1,0 +1,9 @@
+header div {
+    background-color: lightblue;
+    button {
+        background-color: $colorPrincipal !important;
+        &:hover {
+            background-color: violet !important;
+        }
+    }
+}
