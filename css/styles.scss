@@ -1,13 +1,12 @@
 @import "variables";
 @import "header";
 .row {
-    background-color: aquamarine;
+    background-color: $colorRow;
     div {
         $colorSecundario: crimson;
-        border: solid 10px $colorPrincipal;
+        border: solid 10px $colorBorder;
         h2 {
-            text-decoration: underline;
-            background-color: $colorSecundario;
+            text-decoration: unset;
         }
     }
 }
